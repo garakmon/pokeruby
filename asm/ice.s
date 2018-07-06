@@ -7,7 +7,7 @@
 
 	@ ice
 
-	thumb_func_start sub_80D7704
+/*	thumb_func_start sub_80D7704
 sub_80D7704: @ 80D7704
 	push {r4-r7,lr}
 	mov r7, r10
@@ -198,9 +198,9 @@ _080D784A:
 	bx r0
 	.align 2, 0
 _080D7884: .4byte sub_80D7888
-	thumb_func_end sub_80D7704
+	thumb_func_end sub_80D7704 */
 
-	thumb_func_start sub_80D7888
+/*	thumb_func_start sub_80D7888
 sub_80D7888: @ 80D7888
 	push {r4,lr}
 	adds r4, r0, 0
@@ -251,9 +251,9 @@ _080D78E6:
 	pop {r4}
 	pop {r0}
 	bx r0
-	thumb_func_end sub_80D7888
+	thumb_func_end sub_80D7888 */
 
-	thumb_func_start sub_80D78EC
+/*	thumb_func_start sub_80D78EC
 sub_80D78EC: @ 80D78EC
 	push {r4,lr}
 	adds r4, r0, 0
@@ -283,9 +283,9 @@ sub_80D78EC: @ 80D78EC
 _080D7920: .4byte gBattleAnimArgs
 _080D7924: .4byte DestroyAnimSprite
 _080D7928: .4byte sub_8078174
-	thumb_func_end sub_80D78EC
+	thumb_func_end sub_80D78EC */
 
-	thumb_func_start sub_80D792C
+/*	thumb_func_start sub_80D792C
 sub_80D792C: @ 80D792C
 	push {r4,lr}
 	adds r4, r0, 0
@@ -346,9 +346,9 @@ _080D79A4: .4byte gBattleAnimArgs
 _080D79A8: .4byte gAnimBankTarget
 _080D79AC: .4byte DestroyAnimSprite
 _080D79B0: .4byte StartTranslateAnimSpriteByDeltas
-	thumb_func_end sub_80D792C
+	thumb_func_end sub_80D792C */
 
-	thumb_func_start sub_80D79B4
+/*	thumb_func_start sub_80D79B4
 sub_80D79B4: @ 80D79B4
 	push {r4,r5,lr}
 	adds r4, r0, 0
@@ -404,7 +404,7 @@ _080D7A18: .4byte gAnimBankTarget
 _080D7A1C: .4byte gAnimBankAttacker
 _080D7A20: .4byte sub_80D7A28
 _080D7A24: .4byte sub_80785E4
-	thumb_func_end sub_80D79B4
+	thumb_func_end sub_80D79B4 */
 
 	thumb_func_start sub_80D7A28
 sub_80D7A28: @ 80D7A28
