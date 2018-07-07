@@ -74,6 +74,7 @@ void InitAnimSpritePos(struct Sprite *sprite, u8);
 void sub_8078764(struct Sprite *sprite, u8);
 void StartTranslateAnimSpriteByDeltas(struct Sprite *sprite);
 void sub_8078D60(struct Sprite *sprite);
+void sub_8078D8C(struct Sprite *sprite);
 void InitAnimSpriteTranslationOverDuration(struct Sprite *sprite);
 void WaitAnimForDuration(struct Sprite *sprite);
 void sub_8078CC0(struct Sprite *sprite);

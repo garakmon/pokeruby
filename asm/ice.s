@@ -406,7 +406,7 @@ _080D7A20: .4byte sub_80D7A28
 _080D7A24: .4byte sub_80785E4
 	thumb_func_end sub_80D79B4 */
 
-	thumb_func_start sub_80D7A28
+/*	thumb_func_start sub_80D7A28
 sub_80D7A28: @ 80D7A28
 	push {lr}
 	adds r3, r0, 0
@@ -437,9 +437,9 @@ sub_80D7A28: @ 80D7A28
 _080D7A5E:
 	pop {r0}
 	bx r0
-	thumb_func_end sub_80D7A28
+	thumb_func_end sub_80D7A28 */
 
-	thumb_func_start sub_80D7A64
+/*	thumb_func_start sub_80D7A64
 sub_80D7A64: @ 80D7A64
 	push {r4-r7,lr}
 	sub sp, 0x10
@@ -593,9 +593,9 @@ _080D7B76:
 _080D7B94: .4byte gBattleAnimArgs
 _080D7B98: .4byte sub_8078D8C
 _080D7B9C: .4byte sub_80D7BA0
-	thumb_func_end sub_80D7A64
+	thumb_func_end sub_80D7A64 */
 
-	thumb_func_start sub_80D7BA0
+/*	thumb_func_start sub_80D7BA0
 sub_80D7BA0: @ 80D7BA0
 	push {r4,r5,lr}
 	adds r4, r0, 0
@@ -644,9 +644,9 @@ _080D7BD0:
 _080D7BFC: .4byte gAnimBankAttacker
 _080D7C00: .4byte 0x0000ffec
 _080D7C04: .4byte sub_80D7C08
-	thumb_func_end sub_80D7BA0
+	thumb_func_end sub_80D7BA0 */
 
-	thumb_func_start sub_80D7C08
+/*	thumb_func_start sub_80D7C08
 sub_80D7C08: @ 80D7C08
 	push {r4,lr}
 	adds r4, r0, 0
@@ -712,9 +712,9 @@ _080D7C82:
 	bx r0
 	.align 2, 0
 _080D7C88: .4byte sub_80D7C8C
-	thumb_func_end sub_80D7C08
+	thumb_func_end sub_80D7C08 */
 
-	thumb_func_start sub_80D7C8C
+/*	thumb_func_start sub_80D7C8C
 sub_80D7C8C: @ 80D7C8C
 	push {r4,lr}
 	adds r4, r0, 0
@@ -752,9 +752,9 @@ _080D7CCE:
 	pop {r4}
 	pop {r0}
 	bx r0
-	thumb_func_end sub_80D7C8C
+	thumb_func_end sub_80D7C8C */
 
-	thumb_func_start sub_80D7CD4
+/*	thumb_func_start sub_80D7CD4
 sub_80D7CD4: @ 80D7CD4
 	push {r4-r7,lr}
 	sub sp, 0x10
@@ -912,7 +912,7 @@ _080D7DEE:
 	.align 2, 0
 _080D7E10: .4byte gBattleAnimArgs
 _080D7E14: .4byte sub_80D7E18
-	thumb_func_end sub_80D7CD4
+	thumb_func_end sub_80D7CD4 */
 
 	thumb_func_start sub_80D7E18
 sub_80D7E18: @ 80D7E18
