@@ -175,13 +175,7 @@ SECTIONS {
         src/safari_zone.o(.text);
         src/battle/contest_link_80C857C.o(.text);
         src/item_use.o(.text);
-        src/battle/anim/powder.o(.text);
-        src/battle/anim/orbs.o(.text);
-        src/battle/anim/seed.o(.text);
-        src/battle/anim/orbit.o(.text);
-        src/battle/anim/leaf.o(.text);
-        src/battle/anim/tendrils.o(.text);
-        src/battle/anim/silhouette.o(.text);
+        src/battle/anim/effects_1.o(.text);
         src/battle/anim/copy_orb.o(.text);
         src/battle/anim/roots.o(.text);
         src/battle/anim/osmose.o(.text);
@@ -588,12 +582,7 @@ SECTIONS {
         src/field_special_scene.o(.rodata);
         src/rotating_gate.o(.rodata);
         src/item_use.o(.rodata);
-        src/battle/anim/powder.o(.rodata);
-        src/battle/anim/orbs.o(.rodata);
-        src/battle/anim/seed.o(.rodata);
-        src/battle/anim/orbit.o(.rodata);
-        src/battle/anim/leaf.o(.rodata);
-        src/battle/anim/tendrils.o(.rodata);
+        src/battle/anim/effects_1.o(.rodata);
         src/battle/anim/copy_orb.o(.rodata);
         src/battle/anim/roots.o(.rodata);
         src/battle/anim/osmose.o(.rodata);
